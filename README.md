@@ -4,3 +4,17 @@
 
 ## Multimodule projects with Maven
 ![maven-multimodule-projects](images/maven-multimodule-projects.png)
+
+I generated the multimodules running `mvn-ask-parameters` in the root of the previous generated project. In this command I do not need to change anything, but in the generated command yes. Or:
+
+I put `-D articatctId=core`(core is a example of a value).
+
+Or I answer with the right value the artifact ID when I prompted.
+
+See what change was generated in `pom.xml`:
+
+![modules-in-pom-xml](images/modules-in-pom-xml.png)
+
+Besides, the module project was generated in the filesystem. See the directories `controller` and `core` under the project main directory (`artifactId`):
+
+![modules-in-filesystem](images/modules-in-filesystem.png)
