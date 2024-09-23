@@ -18,3 +18,7 @@ See what change was generated in `pom.xml`:
 Besides, the module project was generated in the filesystem. See the directories `controller` and `core` under the project main directory (`artifactId`):
 
 ![modules-in-filesystem](images/modules-in-filesystem.png)
+
+Also you can see that **in the generated module under the main project**, `pom.xml` has a section "`<parent>`". In the next image you can see the main `pom.xml` (without a tag `parent`) and the file `pom.xml` of the generated project (with the tag `parent`).
+
+![parent-in-pom-xml](images/parent-in-pom-xml.png)
